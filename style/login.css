@@ -1,0 +1,143 @@
+.login-box{
+	width: 410px;
+	background: #fff;
+	padding:70px 90px;
+	position: absolute;
+	right: 200px;
+	top: 200px;
+}
+.box-title{
+	width: 410px;
+	height: 24px;
+}
+.f24-welc{
+	font-size: 24px;
+	float: left;
+}
+.f16-reg{
+	float: right;
+	font-size: 16px;
+	color: #666;
+}
+.reg{
+	color: #b28850;
+}
+.m-t-28{
+	margin-top: 28px;
+}
+.db{
+	color: #999;
+}
+.text{
+	width: 388px;
+	padding:0 10px;
+	border:1px solid #eee;
+	margin-top:35px;
+	height: 40px;
+	line-height: 40px;
+
+}
+
+.line{
+	width: 410px;
+}
+.btn-login{
+	display: block;
+	border:1px solid #eee;
+	background: #d93732;
+	height: 40px;
+	margin-top: 20px;
+	line-height: 40px;
+	text-align: center;
+	color: #fff;
+}
+.free{
+	float: left;
+}
+.m-t-20{
+	margin-top: 20px;
+}
+label{
+	float: left;
+}
+.forget{
+	float: right;
+}
+.m-t-40{
+	margin-top: 30px;
+	text-align: center;
+	color: #999;
+	height: 24px;
+	line-height: 24px;
+	font-size: 16px;
+}
+.lf{
+	float: left;
+}
+.rg{
+	float: right;
+}
+.thread{
+	width:126px;
+	height: 12px;
+	border-bottom: 1px solid #f4f4f4;
+}
+.other-pic{
+	width: 33px;
+	height: 33px;
+	border-radius: 33px;
+	background: #898989;
+}
+.other-login{
+	margin-top: 40px;
+	text-align: center;
+	margin-left:80px;
+}
+.login1{
+	float: left;
+	display: block;
+	margin-right: 60px;
+}
+.other-pic{
+	display: inline-block;
+}
+.icon-login-qq{
+	background: url(../images/bgr.png) -201px bottom;
+}
+.icon-login-sina{
+	background: url(../images/bgr.png) -234px bottom;
+}
+.icon-login-alipay{
+	background: url(../images/bgr.png) -267px bottom;
+}
+.ani-bg, .ani-bg:hover{
+	transition-property: background;
+	transition-duration: .3s;
+}
+.other-login a:hover .icon-login-qq{
+	background-color: #dc4641;
+	background-position: -201px -234px;
+}
+.other-login a:hover .icon-login-sina{
+	background-color: #dc4641;
+	background-position: -234px -234px;
+}
+.other-login a:hover .icon-login-alipay{
+	background-color: #dc4641;
+	background-position: -267px -234px;
+}
+/*----register----*/
+.register-box{
+	width: 410px;
+	background: #fff;
+	padding:70px 90px;
+	position: absolute;
+	right: 200px;
+	top: 200px;
+}
+.protocol{
+	margin-top: 20px;
+}
+.protocol a{
+	color: #b28550;
+}

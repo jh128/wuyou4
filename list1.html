@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<meta charset="utf-8">
 	<title>商品列表</title>
@@ -7,62 +8,105 @@
 	<link rel="stylesheet" type="text/css" href="style/index.css">
 	<link rel="stylesheet" type="text/css" href="style/public.css">
 </head>
+
 <body>
+
 	<!-- header -->
 	<div id="header">
-		<div class="h_logo">
+		<div class="h_logo ani-bg">
 			<a href="/"></a>
 		</div>
 		<div class="h_center">
 			<div class="left-menu">
-				<a href="#">礼物分类
-					<div class="show" style="display: none;">
-						<a href="#">少女心饰</a>
-						<a href="#">萌萌美物</a>
-						<a href="#">为爱停留</a>
-						<a href="#">潮流时尚</a>
-						<a href="#">科技达人</a>
-						<a href="#">幸福烙印</a>
-						<a href="#">爱情保鲜</a>
-					</div>
-				</a>
+				<a href="index.html" class="fen">礼物分类</a>
+				<div class="show" style="display: none;z-index: 99;">
+					<div class="first"></div>
+					<a href="#">少女心饰</a>
+					<a href="#">萌萌美物</a>
+					<a href="#">为爱停留</a>
+					<a href="#">潮流时尚</a>
+					<a href="#">科技达人</a>
+					<a href="#">幸福烙印</a>
+					<a href="#">爱情保鲜</a>
+				</div>
 				<i class="small-menu"></i>
-				
+
 			</div>
-			
+
 			<div class="list">
 				<ul>
-					<li class="list1"><a href="#">送礼导航</a></li>
-					<li class="list2"><a href="#">创意礼物</a></li>
-					<li class="list2"><a href="#">新品上架</a></li>
-					<li class="list2"><a href="#">520礼物</a></li>
+					<li class="list1">
+						<a href="#">送礼导航</a>
+					</li>
+					<li class="list2">
+						<a href="create.html">创意礼物</a>
+					</li>
+					<li class="list2">
+						<a href="newproduct.html">新品上架</a>
+					</li>
+					<li class="list2">
+						<a href="520礼物.html">520礼物</a>
+					</li>
 				</ul>
 			</div>
 			<!-- list1-show 送礼导航 子菜单-->
-			<div class="list1-show">
-				<div class="show-list" style="display:none;">
+			<div class="list1-show" style="display:none;">
+				<div class="show-list">
 					<ul class="u1">
 						<li>送给谁:</li>
-						<li><a href="#">不限</a></li>
-						<li><a href="#">公主女票</a></li>
-						<li><a href="#">欧巴男票</a></li>
-						<li><a href="#">潮爸辣妈</a></li>
-						<li><a href="#">兄弟闺蜜</a></li>
-						<li><a href="#">熊孩子</a></li>
-						<li><a href="#">生意伙伴</a></li>
-						<li><a href="#">致谢恩师</a></li>
+						<li>
+							<a href="#">不限</a>
+						</li>
+						<li>
+							<a href="#">公主女票</a>
+						</li>
+						<li>
+							<a href="#">欧巴男票</a>
+						</li>
+						<li>
+							<a href="#">潮爸辣妈</a>
+						</li>
+						<li>
+							<a href="#">兄弟闺蜜</a>
+						</li>
+						<li>
+							<a href="#">熊孩子</a>
+						</li>
+						<li>
+							<a href="#">生意伙伴</a>
+						</li>
+						<li>
+							<a href="#">致谢恩师</a>
+						</li>
 					</ul>
 					<ul class="u2">
 						<li>为啥送:</li>
-						<li><a href="#">不限</a></li>
-						<li><a href="#">表白撩妹</a></li>
-						<li><a href="#">过生日</a></li>
-						<li><a href="#">圣诞节</a></li>
-						<li><a href="#">情人节</a></li>
-						<li><a href="#">去求婚</a></li>
-						<li><a href="#">纪念日</a></li>
-						<li><a href="#">想送任性</a></li>
+						<li>
+							<a href="#">不限</a>
+						</li>
+						<li>
+							<a href="#">表白撩妹</a>
+						</li>
+						<li>
+							<a href="#">过生日</a>
+						</li>
+						<li>
+							<a href="#">圣诞节</a>
+						</li>
+						<li>
+							<a href="#">情人节</a>
+						</li>
+						<li>
+							<a href="#">去求婚</a>
+						</li>
+						<li>
+							<a href="#">纪念日</a>
+						</li>
+						<li>
+							<a href="#">想送任性</a>
+						</li>
 					</ul>
+					<button class="button">搜索</button>
 				</div>
 			</div>
 
@@ -71,15 +115,39 @@
 				<a href="#"></a>
 			</div>
 			<div class="h_login">
-				<a class="login" href="#"><i></i></a>
-				<a class="shopping" href="#"><i></i></a>
+				<a class="login user" href="#">
+					<i class="icon-user ani-bg"></i>
+				</a>
+				<a class="shopping" href="#">
+					<i class="icon-car ani-bg"></i>
+				</a>
+				<div class="user-signin">
+					<dl class="tc">
+						<dt class="f-b28850">
+							<a href="login.html" class="f-b28850">登录</a>/
+							<a href="register.html" class="f-b28850">注册</a>
+						</dt>
+						<dd class="lh2">
+							<a href="#">浏览历史</a>
+						</dd>
+						<dd class="lh2">
+							<a href="#">我的订单</a>
+						</dd>
+						<dd class="lh2">
+							<a href="#">我的收藏</a>
+						</dd>
+					</dl>
+				</div>
+				<div class="user-regis">
+					<p>购物车中还没有商品，赶紧选购吧！</p>
+				</div>
 			</div>
 
 		</div>
 	</div>
 	<!-- content -->
 	<div class="content">
-		
+
 		<div class="center-list">
 			<!-- index-list  -->
 			<div class="index-list">
@@ -89,39 +157,40 @@
 					<a href="#">礼物分类</a>
 					<span>/</span>
 					少女心饰
-				</div>	
+				</div>
 				<div class="list-rg">
 					<span class="fr" f-666>服务热线：400-611-2156 (8:00－24:00)</span>
-					<a href="http://crm2.qq.com/page/portalpage/wpa.php?uin=4006112156&cref=http://www.liwuyou.com/&ref=&f=1&ty=1&ap=&as=" class="fr qqbtn f-666" target="_blank">QQ在线交谈</a>				
-				</div>	
+					<a href="http://crm2.qq.com/page/portalpage/wpa.php?uin=4006112156&cref=http://www.liwuyou.com/&ref=&f=1&ty=1&ap=&as=" class="fr qqbtn f-666"
+					 target="_blank">QQ在线交谈</a>
+				</div>
 			</div>
 		</div>
 		<!-- second-list -->
 		<div class="second-list">
 			<div class="second-center">
-					<div class="query">
-						<div class="clear b-t-1 ">
-							<div class="ff f-ff">分类&nbsp;:</div>
-							<div class="b-t">
-								<a class="focus">全部</a>
-								<a href="category.php?id=392&object_cat=0&environment_cat=0&choice_cat=0&min=0&max=0&sort=most_buy&order=DESC">项链</a>
-								<a href="category.php?id=393&object_cat=0&environment_cat=0&choice_cat=0&min=0&max=0&sort=most_buy&order=DESC">手链</a>	   				   			
-								<a href="category.php?id=394&object_cat=0&environment_cat=0&choice_cat=0&min=0&max=0&sort=most_buy&order=DESC">戒指</a>	   				   			
-								<a href="category.php?id=395&object_cat=0&environment_cat=0&choice_cat=0&min=0&max=0&sort=most_buy&order=DESC">耳环</a>
-							</div>
+				<div class="query">
+					<div class="clear b-t-1 ">
+						<div class="ff f-ff">分类&nbsp;:</div>
+						<div class="b-t">
+							<a class="focus">全部</a>
+							<a href="category.php?id=392&object_cat=0&environment_cat=0&choice_cat=0&min=0&max=0&sort=most_buy&order=DESC">项链</a>
+							<a href="category.php?id=393&object_cat=0&environment_cat=0&choice_cat=0&min=0&max=0&sort=most_buy&order=DESC">手链</a>
+							<a href="category.php?id=394&object_cat=0&environment_cat=0&choice_cat=0&min=0&max=0&sort=most_buy&order=DESC">戒指</a>
+							<a href="category.php?id=395&object_cat=0&environment_cat=0&choice_cat=0&min=0&max=0&sort=most_buy&order=DESC">耳环</a>
 						</div>
-						<div class="clear classfy">
-								<div class="ff">价格&nbsp;:</div>
-								<div class="b-t">
-									<a class="focus">全部</a>
-									<a href="category.php?id=392&object_cat=0&environment_cat=0&choice_cat=0&min=0&max=0&sort=most_buy&order=DESC">100以下</a>
-									<a href="category.php?id=392&object_cat=0&environment_cat=0&choice_cat=0&min=0&max=0&sort=most_buy&order=DESC">100-300</a>
-									<a href="category.php?id=393&object_cat=0&environment_cat=0&choice_cat=0&min=0&max=0&sort=most_buy&order=DESC">300-500</a>	   				   			
-									<a href="category.php?id=394&object_cat=0&environment_cat=0&choice_cat=0&min=0&max=0&sort=most_buy&order=DESC">500-1000</a>	   				   			
-									<a href="category.php?id=395&object_cat=0&environment_cat=0&choice_cat=0&min=0&max=0&sort=most_buy&order=DESC">1000以上</a>
-								</div>
-							</div>
 					</div>
+					<div class="clear classfy">
+						<div class="ff">价格&nbsp;:</div>
+						<div class="b-t">
+							<a class="focus">全部</a>
+							<a href="category.php?id=392&object_cat=0&environment_cat=0&choice_cat=0&min=0&max=0&sort=most_buy&order=DESC">100以下</a>
+							<a href="category.php?id=392&object_cat=0&environment_cat=0&choice_cat=0&min=0&max=0&sort=most_buy&order=DESC">100-300</a>
+							<a href="category.php?id=393&object_cat=0&environment_cat=0&choice_cat=0&min=0&max=0&sort=most_buy&order=DESC">300-500</a>
+							<a href="category.php?id=394&object_cat=0&environment_cat=0&choice_cat=0&min=0&max=0&sort=most_buy&order=DESC">500-1000</a>
+							<a href="category.php?id=395&object_cat=0&environment_cat=0&choice_cat=0&min=0&max=0&sort=most_buy&order=DESC">1000以上</a>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 		<!-- box -->
@@ -129,9 +198,12 @@
 			<div class="box-center">
 				<div class="box-title">
 					<div class="title-lf">
-						<a href="#" class="a1">畅销</a><span class="dib f-d4d4c7">|</span>
-						<a href="#">最新</a><span class="dib f-d4d4c7">|</span>
-						<a href="#">价格从低到高</a><span class="dib f-d4d4c7">|</span>
+						<a href="#" class="a1">畅销</a>
+						<span class="dib f-d4d4c7">|</span>
+						<a href="#">最新</a>
+						<span class="dib f-d4d4c7">|</span>
+						<a href="#">价格从低到高</a>
+						<span class="dib f-d4d4c7">|</span>
 						<a href="#">价格从高到低</a>
 					</div>
 					<div class="title-rg">
@@ -143,124 +215,146 @@
 				<div class="box-body">
 					<ul class="clear">
 						<li>
-							<a href="#" class="img-link">
+							<a href="details.html" class="img-link">
 								<img src="http://img3.liwuyou.com/images/201609/source_img/3576_P_1473046086992.jpg!220">
 							</a>
-							<p class="desc"><a href="#" target="_blank">不一Yang的惊喜</a></p>
+							<p class="desc">
+								<a href="#" target="_blank">不一Yang的惊喜</a>
+							</p>
 							<p>￥194.0</p>
 							<p class="dz">
 								<a href="#">可定制</a>
-							    <span class="pj">3人评价</span> 
+								<span class="pj">3人评价</span>
 							</p>
 						</li>
 						<li>
 							<a href="#" class="img-link">
 								<img src="http://img3.liwuyou.com/images/201611/source_img/2941_P_1479807157792.jpg!220">
 							</a>
-							<p class="desc"><a href="#" target="_blank">不一Yang的惊喜</a></p>
+							<p class="desc">
+								<a href="#" target="_blank">不一Yang的惊喜</a>
+							</p>
 							<p>￥194.0</p>
 							<p class="dz">
 								<a href="#">可定制</a>
-							    <span class="pj">3人评价</span> 
+								<span class="pj">3人评价</span>
 							</p>
 						</li>
 						<li>
 							<a href="#" class="img-link">
 								<img src="http://img3.liwuyou.com/images/201609/source_img/3576_P_1473046086992.jpg!220">
 							</a>
-							<p class="desc"><a href="#" target="_blank">不一Yang的惊喜</a></p>
+							<p class="desc">
+								<a href="#" target="_blank">不一Yang的惊喜</a>
+							</p>
 							<p>￥194.0</p>
 							<p class="dz">
 								<a href="#">可定制</a>
-							    <span class="pj">3人评价</span> 
+								<span class="pj">3人评价</span>
 							</p>
 						</li>
 						<li>
 							<a href="#" class="img-link">
 								<img src="http://img2.liwuyou.com/images/201609/source_img/3760_P_1472695926336.jpg!220">
 							</a>
-							<p class="desc"><a href="#" target="_blank">不一Yang的惊喜</a></p>
+							<p class="desc">
+								<a href="#" target="_blank">不一Yang的惊喜</a>
+							</p>
 							<p>￥194.0</p>
 							<p class="dz">
 								<a href="#">可定制</a>
-							    <span class="pj">3人评价</span> 
+								<span class="pj">3人评价</span>
 							</p>
 						</li>
 						<li>
 							<a href="#" class="img-link">
 								<img src="http://img2.liwuyou.com/images/201802/source_img/3869_P_1519377823556.jpg!220">
 							</a>
-							<p class="desc"><a href="#" target="_blank">不一Yang的惊喜</a></p>
+							<p class="desc">
+								<a href="#" target="_blank">不一Yang的惊喜</a>
+							</p>
 							<p>￥194.0</p>
 							<p class="dz">
 								<a href="#">可定制</a>
-							    <span class="pj">3人评价</span> 
+								<span class="pj">3人评价</span>
 							</p>
 						</li>
 						<li>
 							<a href="#" class="img-link">
 								<img src="http://img4.liwuyou.com/images/201308/source_img/3103_P_1377132736433.jpg!220">
 							</a>
-							<p class="desc"><a href="#" target="_blank">不一Yang的惊喜</a></p>
+							<p class="desc">
+								<a href="#" target="_blank">不一Yang的惊喜</a>
+							</p>
 							<p>￥194.0</p>
 							<p class="dz">
 								<a href="#">可定制</a>
-							    <span class="pj">3人评价</span> 
+								<span class="pj">3人评价</span>
 							</p>
 						</li>
 						<li>
 							<a href="#" class="img-link">
 								<img src="http://img3.liwuyou.com/images/201706/source_img/3841_P_1498448034867.jpg!220">
 							</a>
-							<p class="desc"><a href="#" target="_blank">不一Yang的惊喜</a></p>
+							<p class="desc">
+								<a href="#" target="_blank">不一Yang的惊喜</a>
+							</p>
 							<p>￥194.0</p>
 							<p class="dz">
 								<a href="#">可定制</a>
-							    <span class="pj">3人评价</span> 
+								<span class="pj">3人评价</span>
 							</p>
 						</li>
 						<li>
 							<a href="#" class="img-link">
 								<img src="http://img4.liwuyou.com/images/201612/source_img/3791_P_1480911976483.jpg!220">
 							</a>
-							<p class="desc"><a href="#" target="_blank">不一Yang的惊喜</a></p>
+							<p class="desc">
+								<a href="#" target="_blank">不一Yang的惊喜</a>
+							</p>
 							<p>￥194.0</p>
 							<p class="dz">
 								<a href="#">可定制</a>
-							    <span class="pj">3人评价</span> 
+								<span class="pj">3人评价</span>
 							</p>
 						</li>
 						<li>
 							<a href="#" class="img-link">
 								<img src="http://img5.liwuyou.com/images/201805/source_img/3766_P_1525429015624.jpg!220">
 							</a>
-							<p class="desc"><a href="#" target="_blank">不一Yang的惊喜</a></p>
+							<p class="desc">
+								<a href="#" target="_blank">不一Yang的惊喜</a>
+							</p>
 							<p>￥194.0</p>
 							<p class="dz">
 								<a href="#">可定制</a>
-							    <span class="pj">3人评价</span> 
+								<span class="pj">3人评价</span>
 							</p>
 						</li>
 						<li>
 							<a href="#" class="img-link">
 								<img src="http://img4.liwuyou.com/images/201611/source_img/3761_P_1479115731458.jpg!220">
 							</a>
-							<p class="desc"><a href="#" target="_blank">不一Yang的惊喜</a></p>
+							<p class="desc">
+								<a href="#" target="_blank">不一Yang的惊喜</a>
+							</p>
 							<p>￥194.0</p>
 							<p class="dz">
 								<a href="#">可定制</a>
-							    <span class="pj">3人评价</span> 
+								<span class="pj">3人评价</span>
 							</p>
 						</li>
 						<li>
 							<a href="#" class="img-link">
 								<img src="http://img1.liwuyou.com/images/201611/source_img/3759_P_1479898642255.jpg!220">
 							</a>
-							<p class="desc"><a href="#" target="_blank">不一Yang的惊喜</a></p>
+							<p class="desc">
+								<a href="#" target="_blank">不一Yang的惊喜</a>
+							</p>
 							<p>￥194.0</p>
 							<p class="dz">
 								<a href="#">可定制</a>
-							    <span class="pj">3人评价</span> 
+								<span class="pj">3人评价</span>
 							</p>
 						</li>
 
@@ -268,44 +362,52 @@
 							<a href="#" class="img-link">
 								<img src="http://img4.liwuyou.com/images/201609/source_img/3758_P_1474258908993.jpg!220">
 							</a>
-							<p class="desc"><a href="#" target="_blank">不一Yang的惊喜</a></p>
+							<p class="desc">
+								<a href="#" target="_blank">不一Yang的惊喜</a>
+							</p>
 							<p>￥194.0</p>
 							<p class="dz">
 								<a href="#">可定制</a>
-							    <span class="pj">3人评价</span> 
+								<span class="pj">3人评价</span>
 							</p>
 						</li>
 						<li>
 							<a href="#" class="img-link">
 								<img src="http://img5.liwuyou.com/images/201608/source_img/3757_P_1472633902699.jpg!220">
 							</a>
-							<p class="desc"><a href="#" target="_blank">不一Yang的惊喜</a></p>
+							<p class="desc">
+								<a href="#" target="_blank">不一Yang的惊喜</a>
+							</p>
 							<p>￥194.0</p>
 							<p class="dz">
 								<a href="#">可定制</a>
-							    <span class="pj">3人评价</span> 
+								<span class="pj">3人评价</span>
 							</p>
 						</li>
 						<li>
 							<a href="#" class="img-link">
 								<img src="http://img5.liwuyou.com/images/201609/source_img/3658_P_1472795758219.jpg!220">
 							</a>
-							<p class="desc"><a href="#" target="_blank">不一Yang的惊喜</a></p>
+							<p class="desc">
+								<a href="#" target="_blank">不一Yang的惊喜</a>
+							</p>
 							<p>￥194.0</p>
 							<p class="dz">
 								<a href="#">可定制</a>
-							    <span class="pj">3人评价</span> 
+								<span class="pj">3人评价</span>
 							</p>
 						</li>
 						<li>
 							<a href="#" class="img-link">
 								<img src="http://img3.liwuyou.com/images/201607/source_img/3755_P_1468375259282.jpg!220">
 							</a>
-							<p class="desc"><a href="#" target="_blank">不一Yang的惊喜</a></p>
+							<p class="desc">
+								<a href="#" target="_blank">不一Yang的惊喜</a>
+							</p>
 							<p>￥194.0</p>
 							<p class="dz">
 								<a href="#">可定制</a>
-							    <span class="pj">3人评价</span> 
+								<span class="pj">3人评价</span>
 							</p>
 						</li>
 
@@ -313,242 +415,286 @@
 							<a href="#" class="img-link">
 								<img src="http://img5.liwuyou.com/images/201609/source_img/3754_P_1472718601439.jpg!220">
 							</a>
-							<p class="desc"><a href="#" target="_blank">不一Yang的惊喜</a></p>
+							<p class="desc">
+								<a href="#" target="_blank">不一Yang的惊喜</a>
+							</p>
 							<p>￥194.0</p>
 							<p class="dz">
 								<a href="#">可定制</a>
-							    <span class="pj">3人评价</span> 
+								<span class="pj">3人评价</span>
 							</p>
 						</li>
 						<li>
 							<a href="#" class="img-link">
 								<img src="http://img1.liwuyou.com/images/201608/source_img/3727_P_1472613328195.jpg!220">
 							</a>
-							<p class="desc"><a href="#" target="_blank">不一Yang的惊喜</a></p>
+							<p class="desc">
+								<a href="#" target="_blank">不一Yang的惊喜</a>
+							</p>
 							<p>￥194.0</p>
 							<p class="dz">
 								<a href="#">可定制</a>
-							    <span class="pj">3人评价</span> 
+								<span class="pj">3人评价</span>
 							</p>
 						</li>
 						<li>
 							<a href="#" class="img-link">
 								<img src="http://img5.liwuyou.com/images/201609/source_img/3754_P_1472718601439.jpg!220">
 							</a>
-							<p class="desc"><a href="#" target="_blank">不一Yang的惊喜</a></p>
+							<p class="desc">
+								<a href="#" target="_blank">不一Yang的惊喜</a>
+							</p>
 							<p>￥194.0</p>
 							<p class="dz">
 								<a href="#">可定制</a>
-							    <span class="pj">3人评价</span> 
+								<span class="pj">3人评价</span>
 							</p>
 						</li>
 						<li>
 							<a href="#" class="img-link">
 								<img src="http://img5.liwuyou.com/images/201609/source_img/3754_P_1472718601439.jpg!220">
 							</a>
-							<p class="desc"><a href="#" target="_blank">不一Yang的惊喜</a></p>
+							<p class="desc">
+								<a href="#" target="_blank">不一Yang的惊喜</a>
+							</p>
 							<p>￥194.0</p>
 							<p class="dz">
 								<a href="#">可定制</a>
-							    <span class="pj">3人评价</span> 
+								<span class="pj">3人评价</span>
 							</p>
 						</li>
 						<li>
 							<a href="#" class="img-link">
 								<img src="http://img2.liwuyou.com/images/201611/source_img/1799_P_1479898981626.jpg!220">
 							</a>
-							<p class="desc"><a href="#" target="_blank">不一Yang的惊喜</a></p>
+							<p class="desc">
+								<a href="#" target="_blank">不一Yang的惊喜</a>
+							</p>
 							<p>￥194.0</p>
 							<p class="dz">
 								<a href="#">可定制</a>
-							    <span class="pj">3人评价</span> 
+								<span class="pj">3人评价</span>
 							</p>
 						</li>
 						<li>
 							<a href="#" class="img-link">
 								<img src="http://img1.liwuyou.com/images/201611/source_img/1802_P_1479899101770.jpg!220">
 							</a>
-							<p class="desc"><a href="#" target="_blank">不一Yang的惊喜</a></p>
+							<p class="desc">
+								<a href="#" target="_blank">不一Yang的惊喜</a>
+							</p>
 							<p>￥194.0</p>
 							<p class="dz">
 								<a href="#">可定制</a>
-							    <span class="pj">3人评价</span> 
+								<span class="pj">3人评价</span>
 							</p>
 						</li>
 						<li>
 							<a href="#" class="img-link">
 								<img src="http://img4.liwuyou.com/images/201208/source_img/2009_P_1346183390748.jpg!220">
 							</a>
-							<p class="desc"><a href="#" target="_blank">不一Yang的惊喜</a></p>
+							<p class="desc">
+								<a href="#" target="_blank">不一Yang的惊喜</a>
+							</p>
 							<p>￥194.0</p>
 							<p class="dz">
 								<a href="#">可定制</a>
-							    <span class="pj">3人评价</span> 
+								<span class="pj">3人评价</span>
 							</p>
 						</li>
 						<li>
 							<a href="#" class="img-link">
 								<img src="http://img1.liwuyou.com/images/201609/source_img/1807_P_1473733211525.jpg!220">
 							</a>
-							<p class="desc"><a href="#" target="_blank">不一Yang的惊喜</a></p>
+							<p class="desc">
+								<a href="#" target="_blank">不一Yang的惊喜</a>
+							</p>
 							<p>￥194.0</p>
 							<p class="dz">
 								<a href="#">可定制</a>
-							    <span class="pj">3人评价</span> 
+								<span class="pj">3人评价</span>
 							</p>
 						</li>
 						<li>
 							<a href="#" class="img-link">
 								<img src="http://img5.liwuyou.com/images/201609/source_img/3754_P_1472718601439.jpg!220">
 							</a>
-							<p class="desc"><a href="#" target="_blank">不一Yang的惊喜</a></p>
+							<p class="desc">
+								<a href="#" target="_blank">不一Yang的惊喜</a>
+							</p>
 							<p>￥194.0</p>
 							<p class="dz">
 								<a href="#">可定制</a>
-							    <span class="pj">3人评价</span> 
+								<span class="pj">3人评价</span>
 							</p>
 						</li>
 						<li>
 							<a href="#" class="img-link">
 								<img src="http://img4.liwuyou.com/images/201609/source_img/3758_P_1474258908993.jpg!220">
 							</a>
-							<p class="desc"><a href="#" target="_blank">不一Yang的惊喜</a></p>
+							<p class="desc">
+								<a href="#" target="_blank">不一Yang的惊喜</a>
+							</p>
 							<p>￥194.0</p>
 							<p class="dz">
 								<a href="#">可定制</a>
-							    <span class="pj">3人评价</span> 
+								<span class="pj">3人评价</span>
 							</p>
 						</li>
 						<li>
 							<a href="#" class="img-link">
 								<img src="http://img1.liwuyou.com/images/201609/source_img/1804_P_1473733294450.jpg!220">
 							</a>
-							<p class="desc"><a href="#" target="_blank">不一Yang的惊喜</a></p>
+							<p class="desc">
+								<a href="#" target="_blank">不一Yang的惊喜</a>
+							</p>
 							<p>￥194.0</p>
 							<p class="dz">
 								<a href="#">可定制</a>
-							    <span class="pj">3人评价</span> 
+								<span class="pj">3人评价</span>
 							</p>
 						</li>
 						<li>
 							<a href="#" class="img-link">
 								<img src="http://img4.liwuyou.com/images/201609/source_img/1984_P_1473057356723.jpg!220">
 							</a>
-							<p class="desc"><a href="#" target="_blank">不一Yang的惊喜</a></p>
+							<p class="desc">
+								<a href="#" target="_blank">不一Yang的惊喜</a>
+							</p>
 							<p>￥194.0</p>
 							<p class="dz">
 								<a href="#">可定制</a>
-							    <span class="pj">3人评价</span> 
+								<span class="pj">3人评价</span>
 							</p>
 						</li>
 						<li>
 							<a href="#" class="img-link">
 								<img src="http://img4.liwuyou.com/images/201403/source_img/3248_P_1395099492283.jpg!220">
 							</a>
-							<p class="desc"><a href="#" target="_blank">不一Yang的惊喜</a></p>
+							<p class="desc">
+								<a href="#" target="_blank">不一Yang的惊喜</a>
+							</p>
 							<p>￥194.0</p>
 							<p class="dz">
 								<a href="#">可定制</a>
-							    <span class="pj">3人评价</span> 
+								<span class="pj">3人评价</span>
 							</p>
 						</li>
 						<li>
 							<a href="#" class="img-link">
 								<img src="http://img5.liwuyou.com/images/201609/source_img/3104_P_1473729804409.jpg!220">
 							</a>
-							<p class="desc"><a href="#" target="_blank">不一Yang的惊喜</a></p>
+							<p class="desc">
+								<a href="#" target="_blank">不一Yang的惊喜</a>
+							</p>
 							<p>￥194.0</p>
 							<p class="dz">
 								<a href="#">可定制</a>
-							    <span class="pj">3人评价</span> 
+								<span class="pj">3人评价</span>
 							</p>
 						</li>
 						<li>
 							<a href="#" class="img-link">
 								<img src="http://img3.liwuyou.com/images/201609/source_img/3102_P_1473730136737.jpg!220">
 							</a>
-							<p class="desc"><a href="#" target="_blank">不一Yang的惊喜</a></p>
+							<p class="desc">
+								<a href="#" target="_blank">不一Yang的惊喜</a>
+							</p>
 							<p>￥194.0</p>
 							<p class="dz">
 								<a href="#">可定制</a>
-							    <span class="pj">3人评价</span> 
+								<span class="pj">3人评价</span>
 							</p>
 						</li>
 						<li>
 							<a href="#" class="img-link">
 								<img src="http://img4.liwuyou.com/images/201609/source_img/3758_P_1474258908993.jpg!220">
 							</a>
-							<p class="desc"><a href="#" target="_blank">不一Yang的惊喜</a></p>
+							<p class="desc">
+								<a href="#" target="_blank">不一Yang的惊喜</a>
+							</p>
 							<p>￥194.0</p>
 							<p class="dz">
 								<a href="#">可定制</a>
-							    <span class="pj">3人评价</span> 
+								<span class="pj">3人评价</span>
 							</p>
 						</li>
 						<li>
 							<a href="#" class="img-link">
 								<img src="http://img3.liwuyou.com/images/201601/source_img/3296_P_1453791140337.jpg!220">
 							</a>
-							<p class="desc"><a href="#" target="_blank">不一Yang的惊喜</a></p>
+							<p class="desc">
+								<a href="#" target="_blank">不一Yang的惊喜</a>
+							</p>
 							<p>￥194.0</p>
 							<p class="dz">
 								<a href="#">可定制</a>
-							    <span class="pj">3人评价</span> 
+								<span class="pj">3人评价</span>
 							</p>
 						</li>
 						<li>
 							<a href="#" class="img-link">
 								<img src="http://img1.liwuyou.com/images/201609/source_img/3277_P_1473730386415.jpg!220">
 							</a>
-							<p class="desc"><a href="#" target="_blank">不一Yang的惊喜</a></p>
+							<p class="desc">
+								<a href="#" target="_blank">不一Yang的惊喜</a>
+							</p>
 							<p>￥194.0</p>
 							<p class="dz">
 								<a href="#">可定制</a>
-							    <span class="pj">3人评价</span> 
+								<span class="pj">3人评价</span>
 							</p>
 						</li>
 						<li>
 							<a href="#" class="img-link">
 								<img src="http://img4.liwuyou.com/images/201609/source_img/3758_P_1474258908993.jpg!220">
 							</a>
-							<p class="desc"><a href="#" target="_blank">不一Yang的惊喜</a></p>
+							<p class="desc">
+								<a href="#" target="_blank">不一Yang的惊喜</a>
+							</p>
 							<p>￥194.0</p>
 							<p class="dz">
 								<a href="#">可定制</a>
-							    <span class="pj">3人评价</span> 
+								<span class="pj">3人评价</span>
 							</p>
 						</li>
 						<li>
 							<a href="#" class="img-link">
 								<img src="http://img4.liwuyou.com/images/201609/source_img/3250_P_1473731506993.jpg!220">
 							</a>
-							<p class="desc"><a href="#" target="_blank">不一Yang的惊喜</a></p>
+							<p class="desc">
+								<a href="#" target="_blank">不一Yang的惊喜</a>
+							</p>
 							<p>￥194.0</p>
 							<p class="dz">
 								<a href="#">可定制</a>
-							    <span class="pj">3人评价</span> 
+								<span class="pj">3人评价</span>
 							</p>
 						</li>
 						<li>
 							<a href="#" class="img-link">
 								<img src="http://img2.liwuyou.com/images/201503/source_img/3451_P_1427167043381.jpg!220">
 							</a>
-							<p class="desc"><a href="#" target="_blank">不一Yang的惊喜</a></p>
+							<p class="desc">
+								<a href="#" target="_blank">不一Yang的惊喜</a>
+							</p>
 							<p>￥194.0</p>
 							<p class="dz">
 								<a href="#">可定制</a>
-							    <span class="pj">3人评价</span> 
+								<span class="pj">3人评价</span>
 							</p>
 						</li>
 						<li>
 							<a href="#" class="img-link">
 								<img src="http://img1.liwuyou.com/images/201609/source_img/3450_P_1473054948355.jpg!220">
 							</a>
-							<p class="desc"><a href="#" target="_blank">不一Yang的惊喜</a></p>
+							<p class="desc">
+								<a href="#" target="_blank">不一Yang的惊喜</a>
+							</p>
 							<p>￥194.0</p>
 							<p class="dz">
 								<a href="#">可定制</a>
-							    <span class="pj">3人评价</span> 
+								<span class="pj">3人评价</span>
 							</p>
 						</li>
 
@@ -556,33 +702,39 @@
 							<a href="#" class="img-link">
 								<img src="http://img2.liwuyou.com/images/201503/source_img/3451_P_1427167043381.jpg!220">
 							</a>
-							<p class="desc"><a href="#" target="_blank">不一Yang的惊喜</a></p>
+							<p class="desc">
+								<a href="#" target="_blank">不一Yang的惊喜</a>
+							</p>
 							<p>￥194.0</p>
 							<p class="dz">
 								<a href="#">可定制</a>
-							    <span class="pj">3人评价</span> 
+								<span class="pj">3人评价</span>
 							</p>
 						</li>
 						<li>
 							<a href="#" class="img-link">
 								<img src="http://img1.liwuyou.com/images/201504/source_img/3624_P_1428655957335.jpg!220">
 							</a>
-							<p class="desc"><a href="#" target="_blank">不一Yang的惊喜</a></p>
+							<p class="desc">
+								<a href="#" target="_blank">不一Yang的惊喜</a>
+							</p>
 							<p>￥194.0</p>
 							<p class="dz">
 								<a href="#">可定制</a>
-							    <span class="pj">3人评价</span> 
+								<span class="pj">3人评价</span>
 							</p>
 						</li>
 						<li>
 							<a href="#" class="img-link">
 								<img src="http://img2.liwuyou.com/images/201608/source_img/3625_P_1472607645311.jpg!220">
 							</a>
-							<p class="desc"><a href="#" target="_blank">不一Yang的惊喜</a></p>
+							<p class="desc">
+								<a href="#" target="_blank">不一Yang的惊喜</a>
+							</p>
 							<p>￥194.0</p>
 							<p class="dz">
 								<a href="#">可定制</a>
-							    <span class="pj">3人评价</span> 
+								<span class="pj">3人评价</span>
 							</p>
 						</li>
 
@@ -602,7 +754,9 @@
 						<!-- <a href="#" class="show" style="display: none;">收起更多</a> -->
 						<div class="gift">
 							<p class="give">送礼策划</p>
-							<p class="gift-pic"><img src="http://www.liwuyou.com/themes/pc/images/gifts.png"></p>
+							<p class="gift-pic">
+								<img src="http://www.liwuyou.com/themes/pc/images/gifts.png">
+							</p>
 						</div>
 						<div class="txt">
 							<h1 class="txt-top">少女心饰</h1>
@@ -637,83 +791,88 @@
 					</div>
 				</div>
 			</div>
-			
+
 		</div>
 	</div>
 
 	<!-- foot -->
 	<div class="about clear">
-			<!-- follow 关注我们 -->
-			<div class="follow">
-				<div class="follow-box1 f1">
-					<i class="icon1"></i>
-				</div>
-				<div class="follow-box2 f1">
-					<img src="http://www.liwuyou.com/themes/pc/images/slogan.png">
-				</div>
-				<div class="follow-box3 f1">
-					<div class="pic">
-						<p class="f16">关注我们</p>
-						<a href="#" class="weibo"></a>
-						<a href="#" class="sina"></a>
-						<a href="#" class="weixin"></a>
-					</div>
-				</div>
-				<div class="follow-box4 f1">
-					<h2>400-611-2156</h2>
-					<p>周一至周日 8:00-24:00</p>
-					<a href="#">QQ在线交谈</a>
+		<!-- follow 关注我们 -->
+		<div class="follow">
+			<div class="follow-box1 f1">
+				<i class="icon1"></i>
+			</div>
+			<div class="follow-box2 f1">
+				<img src="http://www.liwuyou.com/themes/pc/images/slogan.png">
+			</div>
+			<div class="follow-box3 f1">
+				<div class="pic">
+					<p class="f16">关注我们</p>
+					<a href="#" class="weibo"></a>
+					<a href="#" class="sina"></a>
+					<a href="#" class="weixin"></a>
 				</div>
 			</div>
-			<div class="free-return">
-				<ul>
-					<li>
-						<i class="item1-bgr1 it1"></i>
-						30天免费退货
-					</li>
-					<li>
-						<i class="item2-bgr1 it1"></i>
-						100%正品保证
-					</li>
-					<li>
-						<i class="item3-bgr1 it1"></i>
-						全场免运费
-					</li>
-					<li>
-						<i class="item4-bgr1 it1"></i>
-						提供礼品级包装
-					</li>
-				</ul>
-				<div class="help">
-					<div class="h_lf">
-						<p>
-							<span>© liwuyou.com</span>
-							<a href="#" rel="nofollow" target="_blank">粤ICP备10222238号-1</a>
-						</p>
-					</div>
-					<div class="h_rg">
-						<p class="f-f5f5f5 f0">
-							<a href="#" target="_blank" class="f-f5f5f5">关于我们</a>
-							<a href="#" target="_blank" class="f-f5f5f5">帮助中心</a>
-							<a href="#" target="_blank" class="f-f5f5f5">人才招聘</a>
-							<a href="#" target="_blank" class="f-f5f5f5">售后服务</a>
-							<a href="#" target="_blank" class="f-f5f5f5">配送与验收</a>
-							<a href="#" target="_blank" class="f-f5f5f5">联系我们</a>
-						</p>
-					</div>
+			<div class="follow-box4 f1">
+				<h2>400-611-2156</h2>
+				<p>周一至周日 8:00-24:00</p>
+				<a href="#">QQ在线交谈</a>
+			</div>
+		</div>
+		<div class="free-return">
+			<ul>
+				<li>
+					<i class="item1-bgr1 it1"></i>
+					30天免费退货
+				</li>
+				<li>
+					<i class="item2-bgr1 it1"></i>
+					100%正品保证
+				</li>
+				<li>
+					<i class="item3-bgr1 it1"></i>
+					全场免运费
+				</li>
+				<li>
+					<i class="item4-bgr1 it1"></i>
+					提供礼品级包装
+				</li>
+			</ul>
+			<div class="help">
+				<div class="h_lf">
+					<p>
+						<span>© liwuyou.com</span>
+						<a href="#" rel="nofollow" target="_blank">粤ICP备10222238号-1</a>
+					</p>
+				</div>
+				<div class="h_rg">
+					<p class="f-f5f5f5 f0">
+						<a href="#" target="_blank" class="f-f5f5f5">关于我们</a>
+						<a href="#" target="_blank" class="f-f5f5f5">帮助中心</a>
+						<a href="#" target="_blank" class="f-f5f5f5">人才招聘</a>
+						<a href="#" target="_blank" class="f-f5f5f5">售后服务</a>
+						<a href="#" target="_blank" class="f-f5f5f5">配送与验收</a>
+						<a href="#" target="_blank" class="f-f5f5f5">联系我们</a>
+					</p>
 				</div>
 			</div>
+		</div>
 	</div>
 
 	<!-- qq-pic -->
 	<div class="small-pic" style="display: block;opacity: 0.8;">
-		<a href="http://crm2.qq.com/page/portalpage/wpa.php?uin=4006112156&cref=http://www.liwuyou.com/&ref=&f=1&ty=1&ap=&as=" target="_blank" class="small-icon small-qq">
+		<a href="http://crm2.qq.com/page/portalpage/wpa.php?uin=4006112156&cref=http://www.liwuyou.com/&ref=&f=1&ty=1&ap=&as=" target="_blank"
+		 class="small-icon small-qq">
 			<i class="icon-bgr icon-qq"></i>
 		</a>
 		<a href="javascript:void(0)" class="small-icon">
 			<i class="icon-bgr icon-top"></i>
 		</a>
 	</div>
-		<!-- qq-pic end -->	
+	<!-- qq-pic end -->
+	<script src="libs/jquery-3.3.1.min.js"></script>
+	<script src="libs/jquery-3.3.1.js"></script>
+	<script src="libs/index.js"></script>
 </body>
+
 </html>

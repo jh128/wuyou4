@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>登录</title>
+	<link rel="stylesheet" type="text/css" href="style/reset.css">
+	<link rel="stylesheet" type="text/css" href="style/index.css">
+	<link rel="stylesheet" type="text/css" href="style/public.css">
+	<link rel="stylesheet" type="text/css" href="style/login.css">
+</head>
+<body>
+
+	<!-- header -->
+	<div id="header">
+		<div class="h_logo ani-bg">
+			<a href="/"></a>
+		</div>
+		<div class="h_center">
+			<div class="left-menu">
+				<a href="index.html" class="fen">礼物分类</a>
+					<div class="show" style="display: none;z-index: 99;">
+					<div class="first"></div>
+						<a href="list1.html">少女心饰</a>
+						<a href="list1.html">萌萌美物</a>
+						<a href="list1.html">为爱停留</a>
+						<a href="list1.html">潮流时尚</a>
+						<a href="list1.html">科技达人</a>
+						<a href="list1.html">幸福烙印</a>
+						<a href="list1.html">爱情保鲜</a>
+					</div>
+				<i class="small-menu"></i>
+				
+			</div>
+			
+			<div class="list">
+				<ul>
+					<li class="list1"><a href="list1.html">送礼导航</a></li>
+					<li class="list2"><a href="create.html">创意礼物</a></li>
+					<li class="list2"><a href="newproduct.html">新品上架</a></li>
+					<li class="list2"><a href="520礼物.html">520礼物</a></li>
+				</ul>
+			</div>
+			<!-- list1-show 送礼导航 子菜单-->
+			<div class="list1-show" style="display:none;">
+				<div class="show-list">
+					<ul class="u1">
+						<li>送给谁:</li>
+						<li><a href="#">不限</a></li>
+						<li><a href="#">公主女票</a></li>
+						<li><a href="#">欧巴男票</a></li>
+						<li><a href="#">潮爸辣妈</a></li>
+						<li><a href="#">兄弟闺蜜</a></li>
+						<li><a href="#">熊孩子</a></li>
+						<li><a href="#">生意伙伴</a></li>
+						<li><a href="#">致谢恩师</a></li>
+					</ul>
+					<ul class="u2">
+						<li>为啥送:</li>
+						<li><a href="#">不限</a></li>
+						<li><a href="#">表白撩妹</a></li>
+						<li><a href="#">过生日</a></li>
+						<li><a href="#">圣诞节</a></li>
+						<li><a href="#">情人节</a></li>
+						<li><a href="#">去求婚</a></li>
+						<li><a href="#">纪念日</a></li>
+						<li><a href="#">想送任性</a></li>
+					</ul>
+					<button class="button">搜索</button>
+				</div>
+			</div>
+
+			<div class="search">
+				<input type="text">
+				<a href="#"></a>
+			</div>
+			<div class="h_login">
+				<a class="login user" href="#">
+					<i class="icon-user ani-bg"></i>
+				</a>
+				<a class="shopping" href="#">
+					<i class="icon-car ani-bg"></i>
+				</a>
+				<div class="user-signin" >
+					<dl class="tc" >
+						<dt class="f-b28850">
+							<a href="#" class="f-b28850">登录</a>/
+							<a href="register.html" class="f-b28850">注册</a>
+						</dt>
+						<dd class="lh2">
+							<a href="#">浏览历史</a>
+						</dd>
+						<dd class="lh2">
+							<a href="#">我的订单</a>
+						</dd>
+						<dd class="lh2">
+							<a href="#">我的收藏</a>
+						</dd>
+					</dl>
+				</div>
+				<div class="user-regis">
+					<p>购物车中还没有商品，赶紧选购吧！</p>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<!-- login-page -->
+	<div class="login-page" style="height: 766px;background:url(images/login_bg.jpg) top center no-repeat;">
+		<div class="center-list">
+			<!-- index-list  -->
+			<div class="index-list">
+				<div class="list-rg">
+					<span class="fr" f-666>服务热线：400-611-2156 (8:00－24:00)</span>
+					<a href="http://crm2.qq.com/page/portalpage/wpa.php?uin=4006112156&cref=http://www.liwuyou.com/&ref=&f=1&ty=1&ap=&as=" class="fr qqbtn f-666" target="_blank">QQ在线交谈</a>	
+				</div>	
+			</div>
+		</div>
+		<!-- login -->
+		<div class="login-box">
+			<form name="formLogin" action="" method="post">
+				<div class="login-title">
+					<b class="f24-welc">欢迎回来</b>
+					<span class="f16-reg">还没有账号？
+					<a href="#" class="reg">现在注册</a>
+					</span>
+				</div>
+				<div class="line m-t-28">
+					<input type="text" name="username" placeholder="请输入手机号/邮箱" class="db text">
+				</div>
+				<div class="line ">
+					<input type="text" name="username" placeholder="请输入密码" class="db text">
+				</div>
+				<div class="line ">
+					<a href="#" class="btn-login">立即登录</a>
+				</div>
+				<div class="line clear m-t-20">
+					<label class="free">
+						<input type="checkbox" value="1" checked="checked" name="remember" id="remember">30天免登陆
+					</label>
+					<a href="#" class="forget">忘记密码?</a>
+				</div>
+				<div class="line clear m-t-40">
+					<span class="lf thread"></span>其他方式登录
+					<span class="rg thread"></span>
+				</div>
+				<div class="line other-login">
+					<a href="javascript:getApiUrl('Qzone')" class="login1">
+						<i class="other-pic icon-login-qq ani-bg"></i><br>QQ
+					</a>
+					<a href="javascript:getApiUrl('Qzone')" class="login1">
+						<i class="other-pic icon-login-sina ani-bg"></i><br>新浪微博
+					</a>
+					<a href="javascript:getApiUrl('Qzone')" class="login1">
+						<i class="other-pic icon-login-alipay ani-bg"></i><br>支付宝
+					</a>
+				</div>
+			</form>
+		</div>
+
+	</div>
+
+	<!-- foot -->
+	<div class="about clear">
+			<!-- follow 关注我们 -->
+			<div class="follow">
+				<div class="follow-box1 f1">
+					<i class="icon1"></i>
+				</div>
+				<div class="follow-box2 f1">
+					<img src="http://www.liwuyou.com/themes/pc/images/slogan.png">
+				</div>
+				<div class="follow-box3 f1">
+					<div class="pic">
+						<p class="f16">关注我们</p>
+						<a href="#" class="weibo"></a>
+						<a href="#" class="sina"></a>
+						<a href="#" class="weixin"></a>
+					</div>
+				</div>
+				<div class="follow-box4 f1">
+					<h2>400-611-2156</h2>
+					<p>周一至周日 8:00-24:00</p>
+					<a href="#">QQ在线交谈</a>
+				</div>
+			</div>
+			<div class="free-return">
+				<ul>
+					<li>
+						<i class="item1-bgr1 it1"></i>
+						30天免费退货
+					</li>
+					<li>
+						<i class="item2-bgr1 it1"></i>
+						100%正品保证
+					</li>
+					<li>
+						<i class="item3-bgr1 it1"></i>
+						全场免运费
+					</li>
+					<li>
+						<i class="item4-bgr1 it1"></i>
+						提供礼品级包装
+					</li>
+				</ul>
+				<div class="help">
+					<div class="h_lf">
+						<p>
+							<span>© liwuyou.com</span>
+							<a href="#" rel="nofollow" target="_blank">粤ICP备10222238号-1</a>
+						</p>
+					</div>
+					<div class="h_rg">
+						<p class="f-f5f5f5 f0">
+							<a href="#" target="_blank" class="f-f5f5f5">关于我们</a>
+							<a href="#" target="_blank" class="f-f5f5f5">帮助中心</a>
+							<a href="#" target="_blank" class="f-f5f5f5">人才招聘</a>
+							<a href="#" target="_blank" class="f-f5f5f5">售后服务</a>
+							<a href="#" target="_blank" class="f-f5f5f5">配送与验收</a>
+							<a href="#" target="_blank" class="f-f5f5f5">联系我们</a>
+						</p>
+					</div>
+				</div>
+			</div>
+	</div>
+
+	<!-- qq-pic -->
+	<div class="small-pic" style="display: block;opacity: 0.8;">
+		<a href="http://crm2.qq.com/page/portalpage/wpa.php?uin=4006112156&cref=http://www.liwuyou.com/&ref=&f=1&ty=1&ap=&as=" target="_blank" class="small-icon small-qq">
+			<i class="icon-bgr icon-qq"></i>
+		</a>
+		<a href="javascript:void(0)" class="small-icon">
+			<i class="icon-bgr icon-top"></i>
+		</a>
+	</div>
+		<!-- qq-pic end -->	
+
+<script src="libs/jquery-3.3.1.min.js"></script>
+<script src="libs/jquery-3.3.1.js"></script>
+<script src="libs/index.js"></script>
+</body>
+</html>

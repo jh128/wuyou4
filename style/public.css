@@ -27,8 +27,8 @@ body{
 .list-lf{
 	float: left;
 	font-size: 12px;
-	width: 166px;
-	height: 22px;
+	/*width: 170px;*/
+	/*height: 22px;*/
 }
 .list-lf span{
 	padding: 5px;
@@ -36,7 +36,7 @@ body{
 .list-rg{
 	font-size: 12px;
 	width: 320px;
-	height: 22px;
+	/*height: 22px;*/
 	float: right;
 }
 .list-rg a{
@@ -161,7 +161,7 @@ body{
 
 /* ----box-body---- */
 .box-body{
-	float: left;
+	/*float: left;*/
 	width: 1200px;
 	height: 4066px;
 	margin:0 auto;
@@ -401,4 +401,25 @@ body{
 	margin-top: -3px;
 	margin-left: 5px;
 	background: url(../images/bgr.png) -220px 0;
+}
+
+/*----520 valen-banner----*/
+.valen-banner{
+	height: 530px;
+	/*background:url(../images/valen.png) 0 -60px no-repeat;*/
+	margin-left: -160px;
+	/*margin-top: 20px;*/
+	position: relative;
+}
+.valen-bottom{
+	width: 1200px;
+	height: 248px;
+	background: #fff;
+	position: relative;
+	margin: 10px auto;
+}
+/*----login-page----*/
+.login-page .center-list{
+	/*position: absolute;*/
+	background: none;
 }

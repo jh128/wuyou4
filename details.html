@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>详情页</title>
+	<link rel="stylesheet" type="text/css" href="style/index.css">
+	<link rel="stylesheet" type="text/css" href="style/public.css">
+	<link rel="stylesheet" type="text/css" href="style/reset.css">
+	<link rel="stylesheet" type="text/css" href="style/detail.css">
+	<link rel="stylesheet" type="text/css" href="style/base.css">
+	<link rel="stylesheet" type="text/css" href="style/base2.css">
+</head>
+
+<body>
+	<!-- header -->
+	<div id="header">
+		<div class="h_logo ani-bg">
+			<a href="/"></a>
+		</div>
+		<div class="h_center">
+			<div class="left-menu">
+				<a href="index.html" class="fen">礼物分类</a>
+				<div class="show" style="display: none;z-index: 99;">
+					<div class="first"></div>
+					<a href="list1.html">少女心饰</a>
+					<a href="list1.html">萌萌美物</a>
+					<a href="list1.html">为爱停留</a>
+					<a href="list1.html">潮流时尚</a>
+					<a href="list1.html">科技达人</a>
+					<a href="list1.html">幸福烙印</a>
+					<a href="list1.html">爱情保鲜</a>
+				</div>
+				<i class="small-menu"></i>
+			</div>
+
+			<div class="list">
+				<ul>
+					<li class="list1">
+						<a href="list1.html">送礼导航</a>
+					</li>
+					<li class="list2">
+						<a href="create.html">创意礼物</a>
+					</li>
+					<li class="list2">
+						<a href="newproduct.html">新品上架</a>
+					</li>
+					<li class="list2">
+						<a href="520礼物.html">520礼物</a>
+					</li>
+				</ul>
+			</div>
+			<!-- list1-show 送礼导航 子菜单-->
+			<div class="list1-show" style="display:none;">
+				<div class="show-list">
+					<ul class="u1">
+						<li>送给谁:</li>
+						<li>
+							<a href="#">不限</a>
+						</li>
+						<li>
+							<a href="#">公主女票</a>
+						</li>
+						<li>
+							<a href="#">欧巴男票</a>
+						</li>
+						<li>
+							<a href="#">潮爸辣妈</a>
+						</li>
+						<li>
+							<a href="#">兄弟闺蜜</a>
+						</li>
+						<li>
+							<a href="#">熊孩子</a>
+						</li>
+						<li>
+							<a href="#">生意伙伴</a>
+						</li>
+						<li>
+							<a href="#">致谢恩师</a>
+						</li>
+					</ul>
+					<ul class="u2">
+						<li>为啥送:</li>
+						<li>
+							<a href="#">不限</a>
+						</li>
+						<li>
+							<a href="#">表白撩妹</a>
+						</li>
+						<li>
+							<a href="#">过生日</a>
+						</li>
+						<li>
+							<a href="#">圣诞节</a>
+						</li>
+						<li>
+							<a href="#">情人节</a>
+						</li>
+						<li>
+							<a href="#">去求婚</a>
+						</li>
+						<li>
+							<a href="#">纪念日</a>
+						</li>
+						<li>
+							<a href="#">想送任性</a>
+						</li>
+					</ul>
+					<button class="button">搜索</button>
+				</div>
+			</div>
+
+			<div class="search">
+				<input type="text">
+				<a href="#"></a>
+			</div>
+
+			<div class="h_login">
+				<a class="login user" href="#">
+					<i class="icon-user ani-bg"></i>
+				</a>
+				<a class="shopping" href="#">
+					<i class="icon-car ani-bg"></i>
+				</a>
+				<div class="user-signin">
+					<dl class="tc">
+						<dt class="f-b28850">
+							<a href="#" class="f-b28850">登录</a>/
+							<a href="#" class="f-b28850">注册</a>
+						</dt>
+						<dd class="lh2">
+							<a href="#">浏览历史</a>
+						</dd>
+						<dd class="lh2">
+							<a href="#">我的订单</a>
+						</dd>
+						<dd class="lh2">
+							<a href="#">我的收藏</a>
+						</dd>
+					</dl>
+				</div>
+				<div class="user-regis">
+					<p>购物车中还没有商品，赶紧选购吧！</p>
+				</div>
+			</div>
+
+		</div>
+	</div>
+	<!-- <div class="goods-center-list"> -->
+			<!-- index-list  -->
+			<!-- <div class="index-list">
+				<div class="list-lf">
+					<a href="index.html">首页</a>
+					<span>/</span>
+					<a href="#">不一样的详情页</a>
+				</div>
+				<div class="list-rg">
+					<span class="fr" f-666>服务热线：400-611-2156 (8:00－24:00)</span>
+					<a href="http://crm2.qq.com/page/portalpage/wpa.php?uin=4006112156&cref=http://www.liwuyou.com/&ref=&f=1&ty=1&ap=&as=" class="fr qqbtn f-666"
+					 target="_blank">QQ在线交谈</a>
+				</div>
+			</div> -->
+	<!-- </div> -->
+	<div class="bg-f5f5f5 p-b-10">
+		<div class="currentloc bg-f5f5f5 clear">
+				<div class="goods-center f12">
+					<div class="fl">
+						<a href="index.html">首页</a>
+						<span>/</span>不一Yang的惊喜
+					</div>
+					<a href="http://crm2.qq.com/page/portalpage/wpa.php?uin=4006112156&cref=http://www.liwuyou.com/&ref=&f=1&ty=1&ap=&as=" class="fr qqbtn tc f-666"
+					 target="_blank">QQ在线交谈</a>
+					<span class="fr f-666">服务热线：400-611-2156 (8:00－24:00)</span>
+					<span class="fr m-r-100 f-a5937d">
+						<!-- 节日名称  <i class="icon-bgr icon-gift m-l-10"></i>-->
+					</span>
+				</div>
+		</div>
+
+
+		<div class="goods-info bg-fff overhide">
+				<div class="goods-center clear m-t-60">
+					<div class="img-sm fl m-r-60" id="goods_img_list">
+						<img src="http://img3.liwuyou.com/images/201609/source_img/3576_P_1473046086992.jpg!pro70.jpg" class="focus img_id_13965">
+						<img src="http://img1.liwuyou.com/images/201609/source_img/3576_P_1474863932615.jpg!pro70.jpg" class="m-t-16 img_id_14350">
+						<img src="http://img4.liwuyou.com/images/201501/source_img/3576_P_1421897718168.jpg!pro70.jpg" class="m-t-16 img_id_9567">
+						<img src="http://img2.liwuyou.com/images/201501/source_img/3576_P_1421897726166.jpg!pro70.jpg" class="m-t-16 img_id_9568">
+						<img src="http://img3.liwuyou.com/images/201501/source_img/3576_P_1421897727967.jpg!pro70.jpg" class="m-t-16 img_id_9569">
+						<img src="http://img3.liwuyou.com/images/201609/source_img/3576_P_1474526324917.jpg!pro70.jpg" class="m-t-16 img_id_14294">
+					</div>
+					<div class="img-single fl rel" id="goods_single_list">
+						<span class="loading f16">
+							<img src="images/loader.gif">
+						</span>
+						<!-- glass start -->
+						<div class="glass">
+							<span class="grayBox"></span>
+						</div>
+						<div class="big">
+							<img class="opacity-img" src="http://img3.liwuyou.com/images/201609/source_img/3576_P_1473046086992.jpg!pro500.jpg" alt="">
+						</div>
+						<!-- glass end -->
+
+						<div class="jpg">
+						<img src="http://img3.liwuyou.com/images/201609/source_img/3576_P_1473046086992.jpg!pro500.jpg" class="cloudzoom" data-cloudzoom="zoomImage: 'http://img3.liwuyou.com/images/201609/source_img/3576_P_1473046086992.jpg'">
+						<img src="http://img1.liwuyou.com/images/201609/source_img/3576_P_1474863932615.jpg!pro500.jpg" class="cloudzoom" data-cloudzoom="zoomImage: 'http://img1.liwuyou.com/images/201609/source_img/3576_P_1474863932615.jpg'"
+						 style="display:none;">
+						<img src="http://img4.liwuyou.com/images/201501/source_img/3576_P_1421897718168.jpg!pro500.jpg" class="cloudzoom" data-cloudzoom="zoomImage: 'http://img4.liwuyou.com/images/201501/source_img/3576_P_1421897718168.jpg'"
+						 style="display:none;">
+						<img src="http://img2.liwuyou.com/images/201501/source_img/3576_P_1421897726166.jpg!pro500.jpg" class="cloudzoom" data-cloudzoom="zoomImage: 'http://img2.liwuyou.com/images/201501/source_img/3576_P_1421897726166.jpg'"
+						 style="display:none;">
+						<img src="http://img3.liwuyou.com/images/201501/source_img/3576_P_1421897727967.jpg!pro500.jpg" class="cloudzoom" data-cloudzoom="zoomImage: 'http://img3.liwuyou.com/images/201501/source_img/3576_P_1421897727967.jpg'"
+						 style="display:none;">
+						<img src="http://img3.liwuyou.com/images/201609/source_img/3576_P_1474526324917.jpg!pro500.jpg" class="cloudzoom" data-cloudzoom="zoomImage: 'http://img3.liwuyou.com/images/201609/source_img/3576_P_1474526324917.jpg'"
+						 style="display:none;">
+						 </div>
+
+					</div>
+					<div class="goods-attr fr">
+						<h2 class="lh1 f30">不一Yang的惊喜</h2>
+						<h3 class="fn f14 m-t-20 f-666">新的一年，我要给你不一“羊”的惊喜！925纯银的精细打造，每一次锤炼都是我对你爱的见证，镶嵌起来的小钻，一闪一闪的光亮，阐述着我对你感情的坚韧，悄悄刻上你我的名字，只想送你一个惊喜，我们会一直在一起，面对人生的风浪一路搀扶着走下去！
+							</h3>
+						<div class="clear m-t-20 price-box lh1">
+							<span class="fl f-d93732 f24 fb price-show" data-base-price="194.00" data-discount="100">194.0 - 214.0元</span>
+							<span class="fr f-666">暂时缺货</span>
+						</div>
+
+						<div class="p-y-20">
+							<div class="attr-box clear">
+								<span class="fl pro-title dib f-666">个性定制：</span>
+								<span class="fl">
+									<a href="javascript:void(0)" class="select_attr  dib m-r-8 s_228" data-attr="228-0c72389fe999eb3038e7e7523c454c6c" data-spec-key="228"
+									 data-spec="0c72389fe999eb3038e7e7523c454c6c">直接购买</a>
+									<a href="javascript:void(0)" class="select_attr  dib m-r-8 s_228" data-attr="228-53749b6449a123250ad971489b475a6c" data-spec-key="228"
+									 data-spec="53749b6449a123250ad971489b475a6c">个性定制</a>
+									<input type="hidden" class="attr_selected" name="attr_list[]" id="attr_228" />
+								</span>
+							</div>
+							<input type="hidden" id="goodsAttrListCount" value="2" />
+							<div class="attr-box clear">
+								<span class="fl pro-title dib f-666">礼物款式：</span>
+								<span class="fl">
+									<a href="javascript:void(0)" class="select_attr  dib m-r-8 s_226" data-attr="226-7abc32eb95676b545533152cfc8fdd1e" data-spec-key="226"
+									 data-spec="7abc32eb95676b545533152cfc8fdd1e">小羊手链+小羊项链</a>
+									<input type="hidden" class="attr_selected" name="attr_list[]" id="attr_226" />
+								</span>
+							</div>
+							<input type="hidden" id="goodsAttrListCount" value="2" />
+							<input type="hidden" class="spec_selected" name="spec_list" id="spec_selected" />
+
+						</div>
+						<div class="btn-box clear m-t-20 lh1">
+
+							<a href="javascript:void(0)" id="add_to_cart" class="btn-red-single m-r-10 fl ani-bg ">直接购买</a>
+							<a href="javascript:void(0)" id="product_diy" class="btn-red-single m-r-10 fl ani-bg " style="display:none">定制购买</a>
+
+
+
+							<a href="javascript:void(0)" class="collect fl ani-bg ">
+								<i class="icon-bgr icon-heart"></i>
+							</a>
+						</div>
+						<div class="btn-others">
+							<a href="category.php?id=385">
+								<i class="icon-bgr icon-item m-r-10"></i>查看更多同类商品</a>
+						</div>
+					</div>
+				</div>
+		</div>
+		<div class="detail-title bg-fff tc f18" id="detail_header">
+				<div class="goods-center rel">
+					<a href="javascript:void(0)" class="focus f-666" data-param="#discription">礼物详情</a>
+					<a href="javascript:void(0)" class="f-666" data-param="#size" class="dn">规格参数</a>
+					<a href="javascript:void(0)" class="f-666" data-param="#comment">评价晒单 (
+						<span class="comment_total">0</span>) </a>
+					<a href="javascript:void(0)" class="f-666" data-param="#consult">咨询 (
+						<span class="question-total">0</span>)</a>
+					<span class="gds_service f12 dn">
+						<span class="lh2 f-666">需要帮助？</span>
+						<a href="http://crm2.qq.com/page/portalpage/wpa.php?uin=4006112156&cref=http://www.liwuyou.com/&ref=&f=1&ty=1&ap=&as="
+						 class="fr qqbtn tc f-666" target="_blank">QQ在线交谈</a>
+					</span>
+				</div>
+		</div>
+		<div class="detail-title f16 f-f5f5f5 dn" id="title_temp">临时填充</div>
+
+		<div class="detail-content bg-fff" id="discription">
+				<div class="warm-tips">本产品当天下午5点前的订单当天发货。</div>
+				<img src="http://liwuyou.b0.upaiyun.com/images/upload/Image/小羊手链项链新图_01.jpg" />
+				<img src="http://liwuyou.b0.upaiyun.com/images/upload/Image/小羊手链项链新图_02.jpg" />
+				<img src="http://liwuyou.b0.upaiyun.com/images/upload/Image/不一Yang的惊喜（详情图）(1).jpg" id="diy_template" />
+				<img src="http://liwuyou.b0.upaiyun.com/images/upload/Image/小羊手链项链新图_04.jpg" />
+				<img src="http://liwuyou.b0.upaiyun.com/images/upload/Image/小羊手链项链新图_05.jpg" />
+				<img src="http://liwuyou.b0.upaiyun.com/images/upload/Image/小羊手链项链新图_06.jpg" />
+				<img src="http://liwuyou.b0.upaiyun.com/images/upload/Image/小羊手链项链新图_07.jpg" />
+				<img src="http://liwuyou.b0.upaiyun.com/images/upload/Image/手环换包装-pc_01(2411).jpg" />
+				<img src="http://liwuyou.b0.upaiyun.com/images/upload/Image/手环换包装-pc_02(3437).jpg" />
+				<img src="http://liwuyou.b0.upaiyun.com/images/upload/Image/手环换包装-pc_03(7764).jpg" />
+				<img src="http://liwuyou.b0.upaiyun.com/images/upload/Image/手环换包装-pc_04(9880).jpg" />
+				<img src="http://liwuyou.b0.upaiyun.com/images/upload/Image/手环换包装-pc_05(8436).jpg" />
+				<div align="left">
+					<img src="http://liwuyou.b0.upaiyun.com/images/upload/Image/无包装有贺卡.jpg" alt="" />
+					<br />
+				</div>
+				<img src="http://liwuyou.b0.upaiyun.com/images/upload/Image/内页官网_03.jpg" alt="" />
+				<img src="http://liwuyou.b0.upaiyun.com/images/upload/Image/快递.jpg" alt="" />
+				<img src="http://liwuyou.b0.upaiyun.com/images/upload/Image/内页官网_05.jpg" alt="" /> </div>
+		<div class="goods-tips f24 tc f-808080" id="size">规格参数</div>
+		<div class="goods-prop goods-center bg-fff clear">
+			<ul class="goods_property">
+					<li>名称：不一Yang的惊喜</li>
+					<li>内容：纯银手链一条、项链一条</li>
+					<li>材质：925纯银</li>
+					<li>手链规格：周长约18cm；尾链约3.5cm；吊坠约1.7g</li>
+					<li>项链规格：链长40cm；吊坠5*3*0.2cm（盒子链或者侧身链随机）</li>
+					<li>
+						<span style="color:#FF0000;">定制提示：手链项链皆可定制一个字符，当天下午5点前确定的订单当天发货</span>
+					</li>
+					<li>包装：精美包装</li>
+			</ul>	
+		</div>
+
+			<div class="goods-tips f24 tc f-808080" id="comment">评价晒单</div>
+			<div class="commen-orders goods-center bg-fff">
+				<p class="totals tc f16">
+					<a href="javascript:void(0);" onClick="get_comments(1,goods_id,0,1,'',this);" class="fb">所有评价(
+						<span class="comment_total">0</span>)</a>&nbsp;&nbsp;/&nbsp;&nbsp;
+					<a href="javascript:void(0);" onClick="get_comments(1,goods_id,0,11,'',this);">有晒单的评价(
+						<span class="saidan_total">0</span>)</a>
+				</p>
+				<p class="tr lh2 m-7" id="good_rate">好评率 0%</p>
+				<ul class="commen-list"></ul>
+				<div class="pages tc p-y-40 pages-sm pages-comment">
+					<a class="prev icon-bgr icon-page-l" href="javascript:void(0)"></a>
+					<a href="javascript:void(0)" class="current">1</a>
+					<a href="javascript:void(0)">2</a>
+					<a href="javascript:void(0)">3</a>
+					<a href="javascript:void(0)">4</a>
+					<a href="javascript:void(0)">5</a>
+					<a class="next icon-bgr icon-page-r" href="javascript:void(0)"></a>
+				</div>
+			</div>
+			<div class="goods-tips f24 tc f-808080" id="consult">商品咨询</div>
+			<div class="consult goods-center bg-fff">
+				<div class="top-search tc f0">
+					<span class="dib f14 tl">
+						<input type="text" class="question-search-txt search-txt dib ">
+					</span>
+					<a href="javascript:void(0)" class="dib f-fff f14 ani-bg question-search-btn">发表咨询</a>
+				</div>
+				<ul class="ques-box clear" id="question-list"></ul>
+				<div class="look-all tc">
+					<a href="goods.php?act=question&id=3576" target="_blank" class="f16">查看全部
+						<span class="question-total">0</span>个提问
+						<i class="icon-bgr icon-page-r m-l-10"></i>
+					</a>
+				</div>
+			</div>
+			<div class="goods-tips f24 tc f-808080" id="guessyoulike">猜你喜欢</div>
+			<div class="guessyoulike slider-box goods-center rel">
+				<div class="slider clear">
+					<div class="item fl">
+						<ul class="clear">
+							<li class="tc fl m-0 p-0 bg-fff ">
+								<a href="goods.php?id=3555" target="_blank">
+									<img src="http://img3.liwuyou.com/images/201609/source_img/3555_P_1474875930317.jpg!cat180.jpg">
+								</a>
+								<p class="m-t-5">
+									<a href="goods.php?id=3555" target="_blank">羊年吉祥</a>
+								</p>
+								<p>￥89.0</p>
+							</li>
+							<li class="tc fl m-0 p-0 bg-fff m-l-15">
+								<a href="goods.php?id=3576" target="_blank">
+									<img src="http://img3.liwuyou.com/images/201609/source_img/3576_P_1473046086992.jpg!cat180.jpg">
+								</a>
+								<p class="m-t-5">
+									<a href="goods.php?id=3576" target="_blank">不一Yang的惊喜</a>
+								</p>
+								<p>￥194.0</p>
+							</li>
+							<li class="tc fl m-0 p-0 bg-fff m-l-15">
+								<a href="goods.php?id=2941" target="_blank">
+									<img src="http://img3.liwuyou.com/images/201611/source_img/2941_P_1479807157792.jpg!cat180.jpg">
+								</a>
+								<p class="m-t-5">
+									<a href="goods.php?id=2941" target="_blank">眉黛青颦</a>
+								</p>
+								<p>￥218.0</p>
+							</li>
+						</ul>
+					</div>
+					<div class="item fl">
+						<ul class="clear">
+						</ul>
+					</div>
+					<div class="item fl">
+						<ul class="clear">
+						</ul>
+					</div>
+				</div>
+				<div class="options tc">
+					<i class="dib icon-circle focus"></i>
+					<i class="dib icon-circle"></i>
+					<i class="dib icon-circle"></i>
+				</div>
+			</div>
+
+
+			<div class="screen-image dn" id="screen_image" onselectstart="return false;">
+				<div id="naturalpic" class="tc rel">
+					<img src="images/loader.gif" class="loading">
+				</div>
+				<i class="icon-bgr icon-goods-close hander" id="evt_close"></i>
+				<i class="icon-bgr icon-goods-left hander" id="evt_left"></i>
+				<i class="icon-bgr icon-goods-right hander" id="evt_right"></i>
+				<ul id="tablist" class="tc"></ul>
+			</div>
+	</div>
+
+	</div>
+	<!-- foot -->
+	<div class="about clear">
+		<!-- follow 关注我们 -->
+		<div class="follow">
+			<div class="follow-box1 f1">
+				<i class="icon1"></i>
+			</div>
+			<div class="follow-box2 f1">
+				<img src="http://www.liwuyou.com/themes/pc/images/slogan.png">
+			</div>
+			<div class="follow-box3 f1">
+				<div class="pic">
+					<p class="f16">关注我们</p>
+					<a href="#" class="weibo"></a>
+					<a href="#" class="sina"></a>
+					<a href="#" class="weixin"></a>
+				</div>
+			</div>
+			<div class="follow-box4 f1">
+				<h2>400-611-2156</h2>
+				<p>周一至周日 8:00-24:00</p>
+				<a href="#">QQ在线交谈</a>
+			</div>
+		</div>
+		<div class="free-return">
+			<ul>
+				<li>
+					<i class="item1-bgr1 it1"></i>
+					30天免费退货
+				</li>
+				<li>
+					<i class="item2-bgr1 it1"></i>
+					100%正品保证
+				</li>
+				<li>
+					<i class="item3-bgr1 it1"></i>
+					全场免运费
+				</li>
+				<li>
+					<i class="item4-bgr1 it1"></i>
+					提供礼品级包装
+				</li>
+			</ul>
+			<div class="help">
+				<div class="h_lf">
+					<p>
+						<span>© liwuyou.com</span>
+						<a href="#" rel="nofollow" target="_blank">粤ICP备10222238号-1</a>
+					</p>
+				</div>
+				<div class="h_rg">
+					<p class="f-f5f5f5 f0">
+						<a href="#" target="_blank" class="f-f5f5f5">关于我们</a>
+						<a href="#" target="_blank" class="f-f5f5f5">帮助中心</a>
+						<a href="#" target="_blank" class="f-f5f5f5">人才招聘</a>
+						<a href="#" target="_blank" class="f-f5f5f5">售后服务</a>
+						<a href="#" target="_blank" class="f-f5f5f5">配送与验收</a>
+						<a href="#" target="_blank" class="f-f5f5f5">联系我们</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- qq-pic start-->
+	<div class="small-pic" style="display: block;opacity: 0.8;">
+		<a href="http://crm2.qq.com/page/portalpage/wpa.php?uin=4006112156&cref=http://www.liwuyou.com/&ref=&f=1&ty=1&ap=&as=" target="_blank"
+		 class="small-icon small-qq">
+			<i class="icon-bgr icon-qq"></i>
+		</a>
+		<a href="javascript:void(0)" class="small-icon">
+			<i class="icon-bgr icon-top"></i>
+		</a>
+	</div>
+	<!-- qq-pic end -->
+
+	<script src="libs/jquery-3.3.1.js"></script>
+	<script src="libs/common.js"></script>
+	<script src="libs/goods.js"></script>
+	<script src="libs/index.js"></script>
+	<!-- <script src="libs/banner.js"></script> -->
+</body>
+<script>
+	// 放大镜
+	function Magnifier(options){
+		this.small_ele = $(options.small_ele);
+		this.focus_ele = $(options.focus_ele);
+		this.big_ele = $(options.big_ele);
+		if(this.small_ele.length == 0 || this.focus_ele.length == 0 || this.big_ele.length == 0) return;
+		this.init();
+
+		// console.log(this.small_ele)
+	}
+	Magnifier.prototype = {
+		constructor:Magnifier,
+		init(){
+			//绑定鼠标移入事件;
+			this.scale = this.big_ele.width() / this.focus_ele.width();
+			this.ratio();
+			this.small_ele.on("mouseenter",{hidden:false},$.proxy(this.toggleFocus,this));
+			this.small_ele.on("mouseleave",{hidden:true},$.proxy(this.toggleFocus,this));
+			this.small_ele.on("mousemove.smallMove",$.proxy(this.smallMove,this));
+			this.small_ele.on("mousemove.bigMove",$.proxy(this.bigMove,this));
+			// this.small_ele.on("mousewheel",$.proxy(this.ratio,this));
+			// console.log(this.small_ele[0])
+			this.small_ele[0].onmousewheel = function(event){
+				//谷歌;
+				var evt = event || window.event;
+				// console.log(evt.wheelDelta);
+				//传参调用 ratio => 传入 谷歌 | 当前实现对象里的事件信息;
+				this.ratio("ch",evt.wheelDelta);
+			}.bind(this);
+			this.small_ele[0].addEventListener("DOMMouseScroll",function(event){
+				// console.log(event.detail);
+				this.ratio("ff",event.detail);
+			}.bind(this));
+			
+		},
+		toggleFocus(event){
+			var opacity_img = this.small_ele.find(".jpg");
+			// console.log(opacity_img);
+			if(event.data.hidden){
+				this.focus_ele.stop().fadeOut(200);
+				this.big_ele.stop().fadeOut(200);
+				opacity_img.stop().fadeTo("fast",1);
+			}else{
+				this.focus_ele.stop().fadeIn(200);
+				this.big_ele.stop().fadeIn(200);
+				opacity_img.stop().fadeTo("fast",0.3);
+			}
+		},
+		smallMove(event){
+			// console.log(event)
+			var eleX = event.offsetX-this.focus_ele.width()/2;
+			var eleY = event.offsetY-this.focus_ele.height()/2;
+			// console.log(eleX,eleY);
+			// 边界检测;
+			var maxWidth = this.small_ele.width() - this.focus_ele.width();
+			var maxHeight = this.small_ele.height() - this.focus_ele.height();
+
+			eleX = eleX <= 0 ? 0 : eleX;
+			eleX = eleX >= maxWidth ?  maxWidth : eleX;
+			
+			eleY = eleY <= 0 ? 0 : eleY;
+			eleY = eleY >= maxHeight ?  maxHeight : eleY;
+
+			this.focus_ele.css({
+				left:eleX,
+				top:eleY,
+				backgroundPosition:`${-eleX}px ${-eleY}px`
+			})
+
+			var fullLongX = this.small_ele.width() - this.focus_ele.width();
+			var fullLongY = this.small_ele.height() - this.focus_ele.height();
+			this.propX = Math.round(eleX / fullLongX * 100);
+			this.propY = Math.round(eleY / fullLongY * 100);
+			// console.log(this.propX,this.propY); 
+		},
+		bigMove(){
+			var bigImg = this.big_ele.find("img")
+			var fullLongX = bigImg.width() - this.big_ele.width();
+			var fullLongY = bigImg.height() - this.big_ele.height() ;
+			
+			var eleX = -Math.round(fullLongX * this.propX / 100);
+			var eleY = -Math.round(fullLongY * this.propY / 100);
+			
+			bigImg.css({
+				left:eleX,
+				top:eleY
+			})
+			// console.log(eleX);
+		},
+		ratio(browser_type,data){
+			// 初始化逻辑;
+			// 不传参数为缩放大图功能;
+			if(!browser_type || !data){
+				//1.按比例缩放大图;
+				var bigImg = this.big_ele.find("img");
+				bigImg.css({
+					width:Math.round(this.small_ele.width() * this.scale),
+					height:Math.round(this.small_ele.height() * this.scale)
+				});
+				// 如果我做了这件事，那么其余的事我就不做了;
+				return 0;
+			}
+
+			var turn;
+			if(browser_type == "ch"){
+				data > 0 ? turn = "top" : turn = "bottom";
+			}else if(browser_type == "ff"){
+				data > 0 ? turn = "bottom" : turn = "top";
+			}
+			// console.log(turn);
+			//让小框宽高动起来;
+			
+			var focus_ele_width = this.focus_ele.width() ;
+			var focus_ele_height = this.focus_ele.height() ;
+
+			if(turn == "top"){
+				if(this.focus_ele.width() <= this.small_ele.width() * 0.8){
+					this.focus_ele
+					.css({
+						width:"+=2",
+						height:"+=2",
+						top:"-=1",
+						backgroundPosition:`${-this.focus_ele.position().left+1}px ${-this.focus_ele.position().top+1}px`
+					})
+
+					var left = this.focus_ele.position().left;
+					left = left <= 0 ? 0 : left - 1;
+					this.focus_ele.css({
+						left:left
+					})
+				}
+				//重新计算 比例值;
+			}else if(turn == "bottom"){
+				if(this.focus_ele.width() >= this.small_ele.width() * 0.1){
+					this.focus_ele
+					.css({
+						width:"-=2",
+						height:"-=2",
+						left:"+=1",
+						top:"+=1",
+						backgroundPosition:`${-this.focus_ele.position().left-1}px ${-this.focus_ele.position().top-1}px`
+					})
+				}
+			}
+
+			this.scale = this.big_ele.width() / this.focus_ele.width();
+			this.ratio();
+			this.bigMove();
+
+		}
+	}
+	new Magnifier({
+		small_ele:"#goods_single_list",
+		focus_ele:".grayBox",
+		big_ele:".big"
+	})
+</script>
+</html>

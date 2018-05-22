@@ -8,39 +8,40 @@
 	<link rel="stylesheet" type="text/css" href="style/public.css">
 </head>
 <body>
+
 	<!-- header -->
 	<div id="header">
-		<div class="h_logo">
+		<div class="h_logo ani-bg">
 			<a href="/"></a>
 		</div>
 		<div class="h_center">
 			<div class="left-menu">
-				<a href="index.html">礼物分类
-					<div class="show" style="display: none;">
-						<a href="#">少女心饰</a>
-						<a href="#">萌萌美物</a>
-						<a href="#">为爱停留</a>
-						<a href="#">潮流时尚</a>
-						<a href="#">科技达人</a>
-						<a href="#">幸福烙印</a>
-						<a href="#">爱情保鲜</a>
+				<a href="index.html" class="fen">礼物分类</a>
+					<div class="show" style="display: none;z-index: 99;">
+						<div class="first"></div>
+						<a href="list1.html">少女心饰</a>
+						<a href="list1.html">萌萌美物</a>
+						<a href="list1.html">为爱停留</a>
+						<a href="list1.html">潮流时尚</a>
+						<a href="list1.html">科技达人</a>
+						<a href="list1.html">幸福烙印</a>
+						<a href="list1.html">爱情保鲜</a>
 					</div>
-				</a>
 				<i class="small-menu"></i>
 				
 			</div>
 			
 			<div class="list">
 				<ul>
-					<li class="list1"><a href="#">送礼导航</a></li>
+					<li class="list1"><a href="list1.html">送礼导航</a></li>
 					<li class="list2"><a href="create.html">创意礼物</a></li>
 					<li class="list2"><a href="#">新品上架</a></li>
-					<li class="list2"><a href="#">520礼物</a></li>
+					<li class="list2"><a href="520礼物.html">520礼物</a></li>
 				</ul>
 			</div>
 			<!-- list1-show 送礼导航 子菜单-->
-			<div class="list1-show">
-				<div class="show-list" style="display:none;">
+			<div class="list1-show" style="display:none;">
+				<div class="show-list">
 					<ul class="u1">
 						<li>送给谁:</li>
 						<li><a href="#">不限</a></li>
@@ -63,6 +64,7 @@
 						<li><a href="#">纪念日</a></li>
 						<li><a href="#">想送任性</a></li>
 					</ul>
+					<button class="button">搜索</button>
 				</div>
 			</div>
 
@@ -71,8 +73,32 @@
 				<a href="#"></a>
 			</div>
 			<div class="h_login">
-				<a class="login" href="#"><i></i></a>
-				<a class="shopping" href="#"><i></i></a>
+				<a class="login user" href="#">
+					<i class="icon-user ani-bg"></i>
+				</a>
+				<a class="shopping" href="#">
+					<i class="icon-car ani-bg"></i>
+				</a>
+				<div class="user-signin" >
+					<dl class="tc" >
+						<dt class="f-b28850">
+							<a href="login.html" class="f-b28850">登录</a>/
+							<a href="register.html" class="f-b28850">注册</a>
+						</dt>
+						<dd class="lh2">
+							<a href="#">浏览历史</a>
+						</dd>
+						<dd class="lh2">
+							<a href="#">我的订单</a>
+						</dd>
+						<dd class="lh2">
+							<a href="#">我的收藏</a>
+						</dd>
+					</dl>
+				</div>
+				<div class="user-regis">
+					<p>购物车中还没有商品，赶紧选购吧！</p>
+				</div>
 			</div>
 
 		</div>
@@ -769,5 +795,8 @@
 	</div>
 		<!-- qq-pic end -->	
 
+<script src="libs/jquery-3.3.1.min.js"></script>
+<script src="libs/jquery-3.3.1.js"></script>
+<script src="libs/index.js"></script>
 </body>
 </html>

@@ -27,7 +27,7 @@ a,input{
 }
 body{
 	font:14px/1em "微软雅黑"; 
-	color:#666;
+	color:#333;
 }
 .clear:after{
 	content:"."; 
