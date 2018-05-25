@@ -172,6 +172,31 @@ body{
 	clear: right;
 	display: block;
 }
+.car{
+	width: 100px;
+	height:40px;
+	background: #e4709c;
+	position: absolute;
+	right: 20px;
+	bottom:45px;
+	color: #fff;
+	border:none;
+	line-height: 40px;
+	text-align: center;
+}
+.car_sum{
+	width: 20px;
+	height: 20px;
+	color:#f99;
+	box-shadow: 0 0 5px #f00;
+	border-radius: 8px;
+	display: block; 
+	position: absolute;
+	right:0;
+	top: 30px;
+	text-align: center;
+	line-height: 20px;
+}
 .box-body li{
 	float: left;
 	width: 285px;
@@ -179,6 +204,7 @@ body{
 	background: #fff;
 	margin-right: 15px;
 	margin-bottom: 15px;
+	position: relative;
 }
 .box-body li:hover{
 	box-shadow: 0 0 10px 1px #ccc;

@@ -298,7 +298,7 @@ $(function(){
 });
 function getCartInfo(){
 	$.ajax({
-	  url: "flow.php?step=small_cart",
+	  url: "",
 	  cache: false,
 	  type: "POST",
 	  dataType:"json",
@@ -409,17 +409,3 @@ function objToJSONString(obj, filter){
 function parseObjectToJSON(object, filter){   
 	return JSON.parse(object, filter);   
 } 
-//验证手机号 从user.js挪过来
-function validPhone(phone){
-	var patten = /^1[0-9]{10}$/;
-	return patten.test(phone);
-}
-//验证邮箱号
-function checkEmail(email) {
-	var patten  = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
-	return patten.test(email);
-}
-//去收尾空格
-function trim(str) {
-	return str.replace(/(^\s*)|(\s*$)/g, "");
-}

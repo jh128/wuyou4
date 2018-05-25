@@ -204,6 +204,7 @@ body{
 .icon-car{
 	width: 17px;
 	height: 14px;
+	position: absolute;
 }
 .h_login .shopping{
 	display: block;
@@ -264,7 +265,7 @@ a{
 .f-b28850{
 	color: #b28850;
 }
-.lh2{
+.lh-12{
 	margin:15px 0;
 	height: 20px;
 	line-height: 20px;
@@ -441,9 +442,10 @@ a{
 	margin-top: 25px;
 	margin-left:160px;
 }
-.pro_pic li{
+.pro_pic-li{
 	float: left;
 	margin-right: 17px;
+	margin-bottom: 15px;
 }
 
 /*----cloud----*/

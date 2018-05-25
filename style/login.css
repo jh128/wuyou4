@@ -46,6 +46,18 @@
 	border:1px solid #eee;
 	background: #d93732;
 	height: 40px;
+	width: 100%;
+	margin-top: 20px;
+	line-height: 40px;
+	text-align: center;
+	color: #fff;
+}
+.btn-register{
+	display: block;
+	border:1px solid #eee;
+	background: #d93732;
+	height: 40px;
+	width: 100%;
 	margin-top: 20px;
 	line-height: 40px;
 	text-align: center;

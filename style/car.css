@@ -1,0 +1,23 @@
+#header{
+	position: relative;
+}
+.mycar{
+	display: block;
+	line-height: 98px;
+	font-size: 20px;
+	position: absolute;
+	left: 85px;
+}
+.you{
+	float: right;
+	line-height: 98px;
+	font-size: 14px;
+}
+.you a:hover{
+	color: #d93732;
+}
+.car-list{
+	height: 1000px;
+	width: 100%;
+	background: #f5f5f5;
+}

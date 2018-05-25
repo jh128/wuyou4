@@ -220,83 +220,83 @@ function loadGoodsTitle(){
 	
 	
 //----------------------加入购物车----------------------------------
-	$('#add_to_cart').on('click',function(){
-		if($(this).hasClass("disabled")) return false;
-		if($(this).data('is_no_stock') == '1'){
-			no_stock();
-			return false;
-		}
-		goods = new Object();
-		spec_arr = new Array();
-		fittings_arr = new Array();
-		fittings_spec = new Array();
-		fittings = new Array();
-		if($('#goodsAttrListCount').val() > 0 ){
-			if($("#spec_selected").val() == 0){
-				alert('请选择规格');
-				return false;
-			}
-			spec_arr.push($("#spec_selected").val());
-			quick = 1;
-		}
-		number = 1;
-		goods.fittings = fittings;
-		goods.quick = 1;
-		goods.spec = spec_arr;
-		goods.goods_id = goods_id;
-		goods.number = number;
-		goods.shipping_date = '';//鲜花送货时间
-		goods.parent = 0;
-		jQuery.post( 'flow.php?step=add_to_cart&check_diy=0','goods=' + BASE64.encode(objToJSONString(goods)),function(data){
-			if (data.error > 0) {
-				// 如果需要缺货登记，跳转
-				if (data.error == 2) {
-					//alert(data.message);
-					no_stock();
-				}
-				else if (data.error == 6){
-					//没选规格
+	// $('#add_to_cart').on('click',function(){
+	// 	if($(this).hasClass("disabled")) return false;
+	// 	if($(this).data('is_no_stock') == '1'){
+	// 		no_stock();
+	// 		return false;
+	// 	}
+	// 	goods = new Object();
+	// 	spec_arr = new Array();
+	// 	fittings_arr = new Array();
+	// 	fittings_spec = new Array();
+	// 	fittings = new Array();
+	// 	if($('#goodsAttrListCount').val() > 0 ){
+	// 		if($("#spec_selected").val() == 0){
+	// 			alert('请选择规格');
+	// 			return false;
+	// 		}
+	// 		spec_arr.push($("#spec_selected").val());
+	// 		quick = 1;
+	// 	}
+	// 	number = 1;
+	// 	goods.fittings = fittings;
+	// 	goods.quick = 1;
+	// 	goods.spec = spec_arr;
+	// 	goods.goods_id = goods_id;
+	// 	goods.number = number;
+	// 	goods.shipping_date = '';//鲜花送货时间
+	// 	goods.parent = 0;
+	// 	jQuery.post( 'flow.php?step=add_to_cart&check_diy=0','goods=' + BASE64.encode(objToJSONString(goods)),function(data){
+	// 		if (data.error > 0) {
+	// 			// 如果需要缺货登记，跳转
+	// 			if (data.error == 2) {
+	// 				//alert(data.message);
+	// 				no_stock();
+	// 			}
+	// 			else if (data.error == 6){
+	// 				//没选规格
 						
-					art.dialog({
-						id:"no_stock",
-						title:"",
-						lock:true,
-						background:"#000",
-						opacity:0.15,
-						content:data.message
-					});
-					//alert(data.message);
-				}
-				else if(data.error == 10){
-					//定制
+	// 				art.dialog({
+	// 					id:"no_stock",
+	// 					title:"",
+	// 					lock:true,
+	// 					background:"#000",
+	// 					opacity:0.15,
+	// 					content:data.message
+	// 				});
+	// 				//alert(data.message);
+	// 			}
+	// 			else if(data.error == 10){
+	// 				//定制
 					
-					art.dialog({
-						id:"no_stock",
-						title:"",
-						lock:true,
-						background:"#000",
-						opacity:0.15,
-						content:data.message
-					});
-					//alert(data.message);
-				}else{
-					art.dialog({
-						id:"no_stock",
-						title:"",
-						lock:true,
-						background:"#000",
-						opacity:0.15,
-						content:data.message
-					});
-					//alert(data.message);
-				}
-			}else{
-				window.location.href="flow.php";
-				//alert(data.content);
-			}
-		},'JSON' );
+	// 				art.dialog({
+	// 					id:"no_stock",
+	// 					title:"",
+	// 					lock:true,
+	// 					background:"#000",
+	// 					opacity:0.15,
+	// 					content:data.message
+	// 				});
+	// 				//alert(data.message);
+	// 			}else{
+	// 				art.dialog({
+	// 					id:"no_stock",
+	// 					title:"",
+	// 					lock:true,
+	// 					background:"#000",
+	// 					opacity:0.15,
+	// 					content:data.message
+	// 				});
+	// 				//alert(data.message);
+	// 			}
+	// 		}else{
+	// 			window.location.href="flow.php";
+	// 			//alert(data.content);
+	// 		}
+	// 	},'JSON' );
 		
-	});
+	// });
 //------------------------缺货登记-------------------------
 	function no_stock(){
 		var html = '<div class="no-stock bg-fff">'+

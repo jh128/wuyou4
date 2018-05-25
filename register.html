@@ -86,13 +86,13 @@
 							<a href="login.html" class="f-b28850">登录</a>/
 							<a href="#" class="f-b28850">注册</a>
 						</dt>
-						<dd class="lh2">
+						<dd class="lh-12">
 							<a href="#">浏览历史</a>
 						</dd>
-						<dd class="lh2">
+						<dd class="lh-12">
 							<a href="#">我的订单</a>
 						</dd>
-						<dd class="lh2">
+						<dd class="lh-12">
 							<a href="#">我的收藏</a>
 						</dd>
 					</dl>
@@ -118,46 +118,26 @@
 		</div>
 		<!-- login -->
 		<div class="register-box">
-			<form name="formRegister" action="" method="post">
+			<form name="formRegister" action="index.html" method="post">
 				<div class="login-title">
 					<b class="f24-welc">注册礼无忧账号</b>
 				</div>
 				<div class="line m-t-28">
-					<input type="text" name="username" placeholder="请输入手机号" class="db text">
+					<input type="text" name="tele" id="tele" placeholder="请输入手机号" class="db text">
 				</div>
 				<div class="line ">
-					<input type="text" name="password" placeholder="请输入密码6-12位" class="db text">
+					<input type="text" name="pwd" id="pwd" placeholder="请输入密码6-12位" class="db text">
 				</div>
 				<div class="line ">
-					<input type="text" name="password" placeholder="再次输入密码" class="db text">
+					<input type="text" name="pwd2" id="pwd2" placeholder="再次输入密码" class="db text">
 				</div>
 				<div class="line protocol">
 					<i>注册即视为同意<a href="#">《礼无忧用户注册协议》</a></i>
 				</div>
 				<div class="line ">
-					<a href="#" class="btn-login">立即注册</a>
+					<input type="button" class="btn-register" value="立即注册">
 				</div>
-				<!-- <div class="line clear m-t-20">
-					<label class="free">
-						<input type="checkbox" value="1" checked="checked" name="remember" id="remember">30天免登陆
-					</label>
-					<a href="#" class="forget">忘记密码?</a>
-				</div>
-				<div class="line clear m-t-40">
-					<span class="lf thread"></span>其他方式登录
-					<span class="rg thread"></span>
-				</div>
-				<div class="line other-login">
-					<a href="javascript:getApiUrl('Qzone')" class="login1">
-						<i class="other-pic icon-login-qq ani-bg"></i><br>QQ
-					</a>
-					<a href="javascript:getApiUrl('Qzone')" class="login1">
-						<i class="other-pic icon-login-sina ani-bg"></i><br>新浪微博
-					</a>
-					<a href="javascript:getApiUrl('Qzone')" class="login1">
-						<i class="other-pic icon-login-alipay ani-bg"></i><br>支付宝
-					</a>
-				</div> -->
+			
 			</form>
 		</div>
 
@@ -238,9 +218,17 @@
 	</div>
 		<!-- qq-pic end -->	
 
+</body>
 
-<script src="libs/jquery-3.3.1.min.js"></script>
-<script src="libs/jquery-3.3.1.js"></script>
-<script src="libs/index.js"></script>
+<script src="src/libs/jquery-3.3.1.js"></script>
+<script src="src/model/index.js"></script>
+<script src="src/model/login.js"></script>
+	<script>
+		// $(function(){
+		// 	$(".btn-register").on("click",function(){
+				
+		// 	})
+		// })
+	</script>
 </body>
 </html>

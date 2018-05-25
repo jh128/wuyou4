@@ -1,0 +1,158 @@
+#header{
+	position: relative;
+}
+.mycar{
+	display: block;
+	line-height: 98px;
+	font-size: 20px;
+	position: absolute;
+	left: 85px;
+}
+.you{
+	float: right;
+	line-height: 98px;
+    font-size: 14px;
+    a:hover{
+	color: #d93732;
+    }
+}
+.car-list{
+	padding-bottom:50px;
+	width: 100%;
+    background: #f5f5f5;
+    .information{
+        width:1200px;
+        height: 500px;
+        margin: 0 auto; 
+        background: #fff;
+        position: relative;
+        .infor-title{
+            width: 100%;
+            height: 80px;
+            line-height: 80px;
+            font-size: 14px;
+            margin-left: 40px;
+            ul{
+                float: right;
+                li{
+                    float: left;
+                    margin-right: 80px;
+                }
+            }
+        }
+        .infor1{
+            height: 310px;
+            float: left;
+        }
+        .infro-list{
+            width: 1160px;
+            height: 150px;
+            line-height: 150px;
+            float: left;
+            position: relative;
+            margin-left: 40px;
+            margin-bottom:10px;
+            dl{
+                width:300px;
+                height:100%;
+                display: block;
+                float: left;
+                margin:auto 0;
+                dt{
+                    display: block;
+                    padding-top: 15px;
+                }
+                .small-title{
+                    // width: 350px;
+                    height: 40px;
+                    position: absolute;
+                    left:130px;
+                    top:0;
+                    float: right;
+                    span{
+                        display: block;
+                        height: 20px;
+                    }
+                }
+            }
+            .infro-rg{
+                width: 515px;
+                height: 100%;
+                float: right;
+                span{
+                    float: left;
+                    margin-right: 50px;
+                }
+                .number{
+                    float: left;
+                    margin-right: 40px;
+                    input{
+                        width:30px;
+                        text-align: center;
+                        display: inline;
+                    }
+                }
+                i{
+                    width:18px;
+                    height: 19px;
+                    position: absolute;
+                    right: 40px;
+                    top: 60px;
+                    cursor: pointer;
+                    background:url(../images/bgr.png) -254px -18px;
+                }
+            }
+        }
+        .infor-bottom{
+            width: 1160px;
+            height: 80px;
+            line-height: 80px;
+            font-size: 16px;
+            position: absolute;
+            top: 380px;
+            margin-left: 40px;
+            a{
+                height: 20px;
+                display: block;
+            }
+            a:hover{
+                color: #d93732;
+            }
+            i{
+                width:9px;
+                height: 15px;
+                background:url(../images/bgr.png) -182px 0;
+                margin-right: 8px;
+                display: inline-block;
+            }
+            .sum-money{
+                float: right;
+                width: 600px;
+                height: 80px;
+                span{
+                    font-size: 16px;
+                }
+                .heji{
+                    margin-left:20px;
+                    font-size:16px;
+                    b{ 
+                        color: #d93732;
+                    }
+                }
+                a{
+                    display: inline-block;
+                    width: 250px;
+                    height: 45px;
+                    line-height: 45px;
+                    text-align: center;
+                    background: #d93732;
+                    margin-left: 50px;
+                    color: #fff;
+                    border-radius: 5px;
+                }
+            }
+        }
+    }
+    
+   
+}
